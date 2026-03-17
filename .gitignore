@@ -1,0 +1,14 @@
+# Datasets
+*.h5
+*.tar.gz
+*.zip
+assignments/assignment2/cs231n/datasets/coco_captioning/*
+assignments/assignment3/data/*
+
+# Pre-trained models
+*.pth
+assignments/assignment3/pretrained_model/*
+
+# Python junk
+__pycache__/
+.ipynb_checkpoints/
