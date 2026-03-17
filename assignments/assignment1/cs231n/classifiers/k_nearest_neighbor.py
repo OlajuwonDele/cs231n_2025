@@ -132,7 +132,7 @@ class KNearestNeighbor(object):
 
             nearest_indices = np.argsort(dists[i])[:k]
             closest_y = self.y_train[nearest_indices]
-            ins
+            
             counts = np.bincount(closest_y)
             y_pred[i] = np.argmax(counts)
             
